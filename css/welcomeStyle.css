@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(36, 53, 63);
+    position: relative;
+    font-family: "Titillium Web", sans-serif;
+  
+
+}
+h1{
+    color: rgb(23, 162, 184);
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner1{
+  width: 100%; 
+  box-shadow:1px 1px 12px 13px rgb(0 0 0 / 26%); 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner2{
+    width: 65%;
+   box-shadow:1px 1px 12px 13px rgb(0 0 0 / 26%);
+   margin-top: 60px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   }
+   a{
+    color: white;
+    text-decoration: none;
+   }
+   a:hover{
+    color: white;
+   }

@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signupStyle.css">
+  
+  </head>
+  <body>
+  
+    <div  id="innerBox" class="inner px-5">
+      <h1 class=" text-center py-2 pt-4 ">Smart Login System</h1>
+      <div class="row g-3">
+        <div class="col-md-12">
+          <input type="text" class="input form-control" id="validationServer01" required placeholder="Enter your name">
+        </div>
+        <div class="col-md-12">
+          <input type="email" class="input form-control" id="validationServer02" required placeholder="Enter your email">
+          <p id="alert" class="alert alert-danger">this email is already exist !</p>
+        </div>
+        <div class="col-md-12">
+          <input type="password" class="input form-control " id="validationServer03" required placeholder="Enter your password">
+        </div>
+        <div class="col-12">
+          <button class="btn  form-control mt-4" type="submit" id="mybtn">Sign Up</button>
+        </div>
+        <p class="text-white text-center py-2 ">You have an account?<a href="index.html"> Sign in</a> </p>
+      </div>
+    </div>
+
+    <script src="js/signUp.js"></script>
+  </body>
+</html>

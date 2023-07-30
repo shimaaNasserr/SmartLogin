@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/loginStyle.css">
+  
+  </head>
+  <body>
+  
+    <div  id="innerBox" class="inner px-5 mx-auto">
+      <h1 class=" text-center py-2 pt-4 ">Smart Login System</h1>
+      <div class="row g-3">
+        <div class="col-md-12">
+          <input type="email" class="input form-control loginName" id="validationServer01" required placeholder="Enter your email">
+        </div>
+        <div class="col-md-12">
+          <input type="password" class="input form-control loginPass" id="validationServer02" required placeholder="Enter your password">
+          <p id="dangerAlert" class="alert text-danger text-center">incorrect email or password</p>
+          <p id="successAlert" class="alert text-success text-center">success</p>
+        </div>
+        <div class="col-12">
+          <button class="btn  form-control mt-4 mybttn" type="submit">Login</button>
+        </div>
+        <p class="text-white text-center py-2 ">Don't have an account? <a href="index (2).html">Sign Up</a></p>
+      </div>
+    </div>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
